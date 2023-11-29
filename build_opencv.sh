@@ -177,7 +177,7 @@ main () {
         sudo make install 2>&1 | tee -a install.log
     fi
 
-    cleanup --test-warning
+    # cleanup --test-warning
 
 }
 
