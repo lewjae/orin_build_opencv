@@ -4,7 +4,7 @@
 set -e
 
 # change default constants here:
-readonly PREFIX=/usr/local  # install prefix, (can be ~/.local for a user install)
+readonly PREFIX=~/.local #/usr/local  # install prefix, (can be ~/.local for a user install)
 readonly DEFAULT_VERSION=4.4.0  # controls the default version (gets reset by the first argument)
 readonly CPUS=$(nproc)  # controls the number of jobs
 
